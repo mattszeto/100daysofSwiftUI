@@ -12,12 +12,26 @@
 		4D1BB176256749C6002E80A8 /* day003_operators_if_switch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day003_operators_if_switch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4D1BB17725674D42002E80A8 /* day004_loops.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day004_loops.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4D1BB17825674FC9002E80A8 /* day005_functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day005_functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4D1BB1792568424B002E80A8 /* day006_closures_part_1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day006_closures_part_1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4D1BB17B256849A3002E80A8 /* day007_closures_part_2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day007_closures_part_2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4D1BB17C25684E58002E80A8 /* day008_structs_properties_methods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day008_structs_properties_methods.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4DA6D1BC256862B300724090 /* day009_structs_lazy_access_control.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day009_structs_lazy_access_control.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4DA6D1BD256862F500724090 /* day010_classes_inheritance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day010_classes_inheritance.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4DA6D1BE2568984100724090 /* day011_protocols_extensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day011_protocols_extensions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4DA6D1BF2568ACDE00724090 /* day012_optionals_unwrapping_typecasting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day012_optionals_unwrapping_typecasting.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		4D1BB16C2567408A002E80A8 = {
 			isa = PBXGroup;
 			children = (
+				4DA6D1BF2568ACDE00724090 /* day012_optionals_unwrapping_typecasting.playground */,
+				4DA6D1BE2568984100724090 /* day011_protocols_extensions.playground */,
+				4DA6D1BD256862F500724090 /* day010_classes_inheritance.playground */,
+				4DA6D1BC256862B300724090 /* day009_structs_lazy_access_control.playground */,
+				4D1BB17C25684E58002E80A8 /* day008_structs_properties_methods.playground */,
+				4D1BB17B256849A3002E80A8 /* day007_closures_part_2.playground */,
+				4D1BB1792568424B002E80A8 /* day006_closures_part_1.playground */,
 				4D1BB17825674FC9002E80A8 /* day005_functions.playground */,
 				4D1BB17725674D42002E80A8 /* day004_loops.playground */,
 				4D1BB176256749C6002E80A8 /* day003_operators_if_switch.playground */,
@@ -32,7 +46,7 @@
 		4D1BB16D2567408A002E80A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1220;
 			};
 			buildConfigurationList = 4D1BB1702567408A002E80A8 /* Build configuration list for PBXProject "100daysofSwiftUI" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -54,12 +68,66 @@
 		4D1BB1712567408A002E80A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
 		4D1BB1722567408A002E80A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 			};
 			name = Release;
 		};

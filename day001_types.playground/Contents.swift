@@ -29,11 +29,11 @@ let hands = 2
 
 // type annotations (explicit types, like typescript
 // type inference
-let str = "Hello, Playgrounds"
+str = "Hello, Playgrounds"
 
 let album: String = "My Beautiful Dark Twisted Fantasy"
 let year: Int = 1000
 let height: Double = 1.3
-let isCool: boolean = true
+let isCool: Bool = true
 
 
