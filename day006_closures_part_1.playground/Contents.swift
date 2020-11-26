@@ -1,7 +1,7 @@
 import UIKit
 
 var str = "Hello, playground"
-// closures are anonymous functions -> where we create and assign directly to a variable , then pass  that variable around as if it were a string or integer
+// closures are anonymous functions -> where we create and assign directly to a variable , then pass that variable around as if it were a string or integer
 
 // SwiftUI uses closures A LOT
 // some reasons why closures are useful in Swift:

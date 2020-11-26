@@ -44,7 +44,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>13</integer>
 		</dict>
 		<key>day002_complex_types (Playground) 1.xcscheme</key>
 		<dict>
@@ -65,14 +65,14 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>7</integer>
 		</dict>
 		<key>day003_operators_if_switch (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>12</integer>
 		</dict>
 		<key>day004_loops (Playground) 1.xcscheme</key>
 		<dict>
@@ -93,7 +93,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>2</integer>
 		</dict>
 		<key>day005_functions (Playground) 1.xcscheme</key>
 		<dict>
@@ -114,7 +114,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>6</integer>
 		</dict>
 		<key>day006_closures_part_1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -135,7 +135,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>1</integer>
 		</dict>
 		<key>day007_closures_part_2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -177,7 +177,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>5</integer>
 		</dict>
 		<key>day008_structs_properties_methods (Playground) 1.xcscheme</key>
 		<dict>
@@ -198,7 +198,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>11</integer>
 		</dict>
 		<key>day009_structs_lazy_access_control (Playground) 1.xcscheme</key>
 		<dict>
@@ -219,7 +219,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>3</integer>
 		</dict>
 		<key>day010_classes_inheritance (Playground) 1.xcscheme</key>
 		<dict>
@@ -240,7 +240,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>10</integer>
 		</dict>
 		<key>day011_protocols_extensions (Playground) 1.xcscheme</key>
 		<dict>
@@ -261,7 +261,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>4</integer>
 		</dict>
 		<key>day012_optionals_unwrapping_typecasting (Playground) 1.xcscheme</key>
 		<dict>
@@ -282,7 +282,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>0</integer>
 		</dict>
 		<key>day013-015_swift_review (Playground) 1.xcscheme</key>
 		<dict>
@@ -303,7 +303,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>9</integer>
 		</dict>
 		<key>day025_Milestone_review (Playground) 1.xcscheme</key>
 		<dict>
@@ -324,7 +324,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>8</integer>
 		</dict>
 		<key>day1 (Playground) 1.xcscheme</key>
 		<dict>
